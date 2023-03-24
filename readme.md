@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/sleepyBear92/CheatGPT_For_Labeling/blob/main/assets/cheatGPT.png" width="400px">
+<img src="https://github.com/sleepyBear92/CheatGPT_For_Labeling/blob/main/assets/cheatGPT.png" width="1200px">
 
 </div>
 
