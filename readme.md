@@ -27,18 +27,16 @@ To conclude, we've written an example code to call **ChatGPT using the API to la
 ```bash
 python main.py --key {your_key} --model {model_name} --txt_path {sample.txt}
 ```
-- your_key can be obtained after signing up at [this link](https://platform.openai.com/account/api-keys).
-- For model_name, you can use one of the models below.
-|                    |            DESCRIPTION         |
-| ------------------ | ------------------------------ |
-| gpt-3.5-turbo      | Most capable GPT-3.5 model and </br> optimized for chat at 1/10th </br> the cost of text-davinci-003. Will be updated with our latest model iteration.|
-| gpt-3.5-turbo-0301 | Snapshot of gpt-3.5-turbo from March 1st 2023. Unlike gpt-3.5-turbo, this model will not receive updates, and will only be supported for a three month period ending on June 1st 2023. |
-| text-davinci-003   | Can do any language task with better quality, longer output, and consistent instruction-following than the curie, babbage, or ada models. Also supports inserting completions within text. |
-| text-davinci-002   | Similar capabilities to text-davinci-003 but trained with supervised fine-tuning instead of reinforcement learning |
-| text-curie-001     | Very capable, faster and lower cost than Davinci. |
-| text-babbage-001   | Capable of straightforward tasks, very fast, and lower cost. |
-| text-ada-001       | Capable of very simple tasks, usually the fastest model in the GPT-3 series, and lowest cost. |
-> **Warning: Be sure to [check your usage](https://platform.openai.com/account/usage). If you don't have any credits available, you won't be able to use it anymore.**
+ Model Name         | Description                                                                                                                                                                                                                                                                                                                                 |
+| :-----------------| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| gpt-3.5-turbo      | Most capable GPT-3.5 model and optimized for chat at 1/10th the cost of text-davinci-003. Will be updated with our latest model iteration.                                                                                                                                                                                                   |
+| gpt-3.5-turbo-0301 | Snapshot of gpt-3.5-turbo from March 1st 2023. Unlike gpt-3.5-turbo, this model will not receive updates, and will only be supported for a three month period ending on June 1st 2023.                                                                                                                                                          |
+| text-davinci-003   | Can do any language task with better quality, longer output, and consistent instruction-following than the curie, babbage, or ada models. Also supports inserting completions within text.                                                                                                                                                  |
+| text-davinci-002   | Similar capabilities to text-davinci-003 but trained with supervised fine-tuning instead of reinforcement learning                                                                                                                                                                                                                         |
+| text-curie-001     | Very capable, faster and lower cost than Davinci.                                                                                                                                                                                                                                                                                           |
+| text-babbage-001   | Capable of straightforward tasks, very fast, and lower cost.                                                                                                                                                                                                                                                                                |
+| text-ada-001       | Capable of very simple tasks, usually the fastest model in the GPT-3 series, and lowest cost.                                                                                                                                                                                                                                               |
+> Warning: Be sure to [check your usage](https://platform.openai.com/account/usage). If you don't have any credits available, you won't be able to use it anymore.
 
 **3. ETC**
 - You can also develop a **post-processing module** in 'postprocessor' to get only labeling results from the API results. This will require modifications based on the API results of the modified prompt.
