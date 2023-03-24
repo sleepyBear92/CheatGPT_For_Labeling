@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/sleepyBear92/CheatGPT_For_Labeling/blob/main/assets/DALL%C2%B7E%202023-03-24%2010.05.15%20-%20An%20anthropomorphic%20cute%20cat%20that%20steals%20documents%20and%20dynamically%20runs%20away%2C%20drawn%20in%20a%20Synthwave%20style..png" width="400px">
+<img src="https://github.com/sleepyBear92/CheatGPT_For_Labeling/blob/main/assets/cheatGPT.png" width="400px">
 
 </div>
 
