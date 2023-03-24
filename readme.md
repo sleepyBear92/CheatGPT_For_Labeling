@@ -20,8 +20,8 @@ To conclude, we've written an example code to call **ChatGPT using the API to la
 ## How to use it
 **1. Prepare your data**
 - Prepare the data you want to label in a txt file.
-- In the txt file, one instance of data should be separated by "\n\n". To change the delimiter, change the value of 'sep' in 'load_data' in 'main.py'. 
-- See the example data ('data' folder) and preprocessing code ('sampling_example.ipynb') for details.
+- In the txt file, one instance of data should be separated by **"\n\n".** To change the delimiter, change the value of "sep" in "load_data" in "main.py". 
+- See the example data('data' folder) and preprocessing code('sampling_example.ipynb') for details
 
 **2. Labeling**
 ```bash
